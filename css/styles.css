@@ -5,12 +5,26 @@ body {
 #main {
 	display: flex;
 	height: 100%;
-	max-width: 75%;
-	width: 1360px;
+	width: 100%;
 	margin: auto;
+}
+
+@keyframes grow {
+	from { width: 25%; }
+	to { width: 100%; }
+}
+
+@-webkit-keyframes grow {
+	from { width: 25%; }
+	to { width: 100%; }
+}
+
+#mole {
+	width: 100%;
 }
 
 #mole-container {
 	margin: auto;
+	animation-name: grow;
+	animation-duration: 240s;
 }
-
