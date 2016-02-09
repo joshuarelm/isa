@@ -1,0 +1,16 @@
+body {
+	background-color: black;
+}
+
+#main {
+	display: flex;
+	height: 100%;
+	max-width: 75%;
+	width: 1360px;
+	margin: auto;
+}
+
+#mole-container {
+	margin: auto;
+}
+
